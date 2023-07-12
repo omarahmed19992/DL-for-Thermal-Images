@@ -5,11 +5,25 @@ you can get it from [MDPI](https://www.mdpi.com/1996-1073/13/24/6496)
 
 
 ## the dataset is private , if u want it , send email to them 
+-DataSet -> Ds4Seg -> 3_channel
+                   -> mask
 
-### first thing i made, i tried to visulaize the images and play with them by merge image and its mask together and make some Statistics
-### the images is 4 channels , so i convert them into 3n channels
-### for classification part , i used efficientNet model
-### for segmentation , i used ResNet (but the researhers used 3 models together , so i will try in this part asap in the next days)
+-DataSet -> Ds4Class -> train -> one
+                               -> more
+                               -> continuous 
+                      -> val -> one
+                             -> more
+                             -> continuous
+                      -> test -> one
+                              -> more
+                              -> continuous
+
+### HINTS
+- first thing i made, i tried to visulaize the images and play with them by merge image and its mask together and make some Statistics
+- the images is 4 channels , so i convert them into 3n channels
+- split the origin dataset into files as shown above
+- for classification part , i used efficientNet model
+- for segmentation , i used ResNet (but the researhers used 3 models together , so i will try in this part asap in the next days)
 
 ![the Output from segmentation](op_Seg.jpeg)
 
