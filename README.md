@@ -8,7 +8,7 @@ you can get it from [MDPI](https://www.mdpi.com/1996-1073/13/24/6496)
 -DataSet -> Ds4Seg -> 3_channel
                    -> mask
 
--DataSet -> Ds4Class -> train -> one
+    Ds4Class -> train -> one
                                -> more
                                -> continuous 
                       -> val -> one
