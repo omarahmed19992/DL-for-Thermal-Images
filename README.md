@@ -11,7 +11,7 @@ you can get it from [MDPI](https://www.mdpi.com/1996-1073/13/24/6496)
 ### for classification part , i used efficientNet model
 ### for segmentation , i used ResNet (but the researhers used 3 models together , so i will try in this part asap in the next days)
 
-![the Output from segmentation](op_Seg)
+![the Output from segmentation](op_Seg.jpeg)
 
 
 
