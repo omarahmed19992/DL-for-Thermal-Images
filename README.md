@@ -4,19 +4,22 @@ I'm trying to convert this paper from theoretical into coding to expand knowledg
 you can get it from [MDPI](https://www.mdpi.com/1996-1073/13/24/6496)
 
 
-## the dataset is private , if u want it , send email to them 
--DataSet -> Ds4Seg -> 3_channel
-                   -> mask
+## the dataset is private , if u want it , send email to them  
+
+DataSet ->
+
+    Ds4Seg -> 3_channel
+           -> mask
 
     Ds4Class -> train -> one
-                               -> more
-                               -> continuous 
-                      -> val -> one
-                             -> more
-                             -> continuous
-                      -> test -> one
-                              -> more
-                              -> continuous
+                      -> more
+                      -> continuous 
+             -> val -> one
+                    -> more
+                    -> continuous
+              -> test -> one
+                      -> more
+                      -> continuous
 
 ### HINTS
 - first thing i made, i tried to visulaize the images and play with them by merge image and its mask together and make some Statistics
